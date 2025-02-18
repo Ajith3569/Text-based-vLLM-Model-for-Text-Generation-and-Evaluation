@@ -34,7 +34,8 @@ The time taken for text generation and perplexity (a measure of how well the mod
 ## Output:
 <img width="1470" alt="Screenshot 2025-02-17 at 5 56 51 PM" src="https://github.com/user-attachments/assets/62988db9-f7fd-4292-8bfd-ed92a722612c" />
 
-<img width="1470" alt="Screenshot 2025-02-17 at 5 56 53 PM" src="https://github.com/user-attachments/assets/8d7508b5-6eb1-43e6-9666-04f5a1bc1cbe" />
+![image](https://github.com/user-attachments/assets/6f29890e-83db-4e39-a163-f31a21585fe9)
+
 
 
 ## Performance Impact and Optimization
