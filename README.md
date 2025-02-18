@@ -32,29 +32,19 @@ The time taken for text generation and perplexity (a measure of how well the mod
 * Comparison: A comparison table is created that includes the BLEU, ROUGE, and METEOR scores for both models. The results are printed in the console and saved to a CSV file.
 * 
 ## Performance Impact and Optimization
-## vLLM Optimization: By using DataParallel for multi-GPU processing, the vLLM optimized model provides a significant performance improvement, including:
+### vLLM Optimization: By using DataParallel for multi-GPU processing, the vLLM optimized model provides a significant performance improvement, including:
 
 Up to 50% faster text generation time: The vLLM model processes requests much faster due to distributed computation across multiple GPUs, compared to the regular model that runs on a single GPU (or CPU).
 This speed boost makes the model suitable for real-time applications or large-scale text generation tasks.
 ## Future Enhancements
-This project can be extended or improved in several ways:
+* This project can be extended or improved in several ways:
 
-* Model Fine-Tuning:
+* Model Fine-Tuning: Fine-tune the GPT-2 model on specific datasets to improve the quality of generated text for particular domains (e.g., healthcare, finance, etc.).
+  
+* Performance Optimization: Experiment with different model architectures (like GPT-3 or T5) to improve text generation performance. Further optimize the vLLM model for multi-GPU environments to handle even larger models or datasets.
 
-Fine-tune the GPT-2 model on specific datasets to improve the quality of generated text for particular domains (e.g., healthcare, finance, etc.).
-* Performance Optimization:
+* Evaluation with More Metrics: Include additional metrics like ROUGE-L or F1-score for a more comprehensive comparison. Implement a human evaluation module for better understanding of model outputs.
 
-Experiment with different model architectures (like GPT-3 or T5) to improve text generation performance.
-Further optimize the vLLM model for multi-GPU environments to handle even larger models or datasets.
-* Evaluation with More Metrics:
+* Interactive Interface: Build a web interface or GUI that allows users to input text and reference text interactively, with visual feedback on the evaluation metrics. Implement an API that can be accessed for real-time text generation and evaluation.
 
-Include additional metrics like ROUGE-L or F1-score for a more comprehensive comparison.
-Implement a human evaluation module for better understanding of model outputs.
-I* nteractive Interface:
-
-Build a web interface or GUI that allows users to input text and reference text interactively, with visual feedback on the evaluation metrics.
-Implement an API that can be accessed for real-time text generation and evaluation.
-* Handling Long Texts:
-
-Modify the models and tokenization process to handle longer texts more efficiently by breaking them into manageable chunks.
-Implement document summarization for large PDFs or articles to generate summaries using the GPT-2 model.
+* Handling Long Texts: Modify the models and tokenization process to handle longer texts more efficiently by breaking them into manageable chunks. Implement document summarization for large PDFs or articles to generate summaries using the GPT-2 model.
