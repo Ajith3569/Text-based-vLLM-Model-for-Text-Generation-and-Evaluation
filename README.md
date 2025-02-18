@@ -1,4 +1,4 @@
-<img width="1470" alt="Screenshot 2025-02-17 at 5 56 51 PM" src="https://github.com/user-attachments/assets/c25797eb-8b18-40ab-92f0-326534fd2be2" /># Text-based vLLM Model for Text Generation and Evaluation
+# Text-based vLLM Model for Text Generation and Evaluation
 This project uses the GPT-2 model to generate text based on a given prompt and compares the performance of a regular GPT-2 model against a vLLM optimized GPT-2 model using evaluation metrics such as BLEU, ROUGE, and METEOR scores. The models are evaluated based on text generation time, perplexity, and other metrics, with results displayed in a comparison table.
 
 ## Overview
