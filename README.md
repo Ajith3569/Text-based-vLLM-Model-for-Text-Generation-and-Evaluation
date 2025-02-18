@@ -23,21 +23,16 @@ Before running the code, make sure you have the following Python libraries insta
 * Use pip install -r requirements.txt command to install.
 
 ## What the Code Does
-* Text Generation:
-
-The code uses the GPT-2 model from the transformers library to generate text based on an input prompt.
+* Text Generation: The code uses the GPT-2 model from the transformers library to generate text based on an input prompt.
 A regular GPT-2 model generates text, and a simulated vLLM optimized model generates text using DataParallel for multiple GPU usage.
-* Evaluation:
 
-The generated text is compared to a reference text using BLEU, ROUGE, and METEOR scores.
+* Evaluation: The generated text is compared to a reference text using BLEU, ROUGE, and METEOR scores.
 The time taken for text generation and perplexity (a measure of how well the model predicts the text) are also computed.
-* Comparison:
 
-A comparison table is created that includes the BLEU, ROUGE, and METEOR scores for both models.
-The results are printed in the console and saved to a CSV file.
+* Comparison: A comparison table is created that includes the BLEU, ROUGE, and METEOR scores for both models. The results are printed in the console and saved to a CSV file.
+* 
 ## Performance Impact and Optimization
-## vLLM Optimization:
-By using DataParallel for multi-GPU processing, the vLLM optimized model provides a significant performance improvement, including:
+## vLLM Optimization: By using DataParallel for multi-GPU processing, the vLLM optimized model provides a significant performance improvement, including:
 
 Up to 50% faster text generation time: The vLLM model processes requests much faster due to distributed computation across multiple GPUs, compared to the regular model that runs on a single GPU (or CPU).
 This speed boost makes the model suitable for real-time applications or large-scale text generation tasks.
