@@ -1,4 +1,4 @@
-# Text-based vLLM Model for Text Generation and Evaluation
+<img width="1470" alt="Screenshot 2025-02-17 at 5 56 51 PM" src="https://github.com/user-attachments/assets/c25797eb-8b18-40ab-92f0-326534fd2be2" /># Text-based vLLM Model for Text Generation and Evaluation
 This project uses the GPT-2 model to generate text based on a given prompt and compares the performance of a regular GPT-2 model against a vLLM optimized GPT-2 model using evaluation metrics such as BLEU, ROUGE, and METEOR scores. The models are evaluated based on text generation time, perplexity, and other metrics, with results displayed in a comparison table.
 
 ## Overview
@@ -30,7 +30,13 @@ A regular GPT-2 model generates text, and a simulated vLLM optimized model gener
 The time taken for text generation and perplexity (a measure of how well the model predicts the text) are also computed.
 
 * Comparison: A comparison table is created that includes the BLEU, ROUGE, and METEOR scores for both models. The results are printed in the console and saved to a CSV file.
-* 
+
+## Output:
+<img width="1470" alt="Screenshot 2025-02-17 at 5 56 51 PM" src="https://github.com/user-attachments/assets/62988db9-f7fd-4292-8bfd-ed92a722612c" />
+
+<img width="1470" alt="Screenshot 2025-02-17 at 5 56 53 PM" src="https://github.com/user-attachments/assets/8d7508b5-6eb1-43e6-9666-04f5a1bc1cbe" />
+
+
 ## Performance Impact and Optimization
 ### vLLM Optimization: By using DataParallel for multi-GPU processing, the vLLM optimized model provides a significant performance improvement, including:
 
